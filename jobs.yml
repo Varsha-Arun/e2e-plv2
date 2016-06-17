@@ -7,8 +7,8 @@ jobs:
       - GET: e2eplv2v-ecsparam1
       - GET: e2eplv2v-replica1
       
- # - name: e2eplv2jobv-ecsdeploy1
-  #  type: ecsDeploy
-   # steps:
-   #   - GET: e2eplv2jobv-manifest1
-    #  - GET: e2eplv2v-ecscluster1
+  - name: e2eplv2jobv-ecsdeploy1
+    type: ecsDeploy
+    steps:
+      - GET: e2eplv2jobv-manifest1
+      - GET: e2eplv2v-ecscluster1
